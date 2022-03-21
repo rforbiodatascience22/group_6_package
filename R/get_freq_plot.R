@@ -9,27 +9,27 @@
 #' @export
 #'
 #' @importFrom magrittr %>%
-get_freq_plot <- function(aa_seq){
+name_me1 <- function(name_me2){
   
   # Generates a list of unique amino acids present in input string.
-  aa_unique <- aa_seq %>%
+  name_me3 <- name_me2 %>%
     stringr::str_split(pattern = stringr::boundary("character"), simplify = TRUE) %>%
     as.character() %>%
     unique()
   
   # Counts instances of unique amino acids.
-  counts <- sapply(aa_unique, function(aa_seq) stringr::str_count(string = aa_seq, pattern = aa_unique)) %>% 
+  counts <- sapply(name_me3, function(name_me4) stringr::str_count(string = name_me2, pattern =  name_me4)) %>%
     as.data.frame()
   
   # Change column and row names in data frame.
   colnames(counts) <- c("Counts")
-  counts[["Amino_acid"]] <- rownames(counts)
+  counts[["Name_me2"]] <- rownames(counts)
   
   # Generate frequency plot using ggplot2.
-  freq_plot <- counts %>% 
-    ggplot2::ggplot(ggplot2::aes(x = Amino_acid, y = Counts, fill = Amino_acid)) +
+  name_me5 <- counts %>%
+    ggplot2::ggplot(ggplot2::aes(x = Name_me2, y = Counts, fill = Name_me2)) +
     ggplot2::geom_col() +
     ggplot2::theme_bw()
   
-  return(freq_plot)
+  return(name_me5)
 }
