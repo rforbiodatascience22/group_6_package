@@ -1,7 +1,7 @@
-^central_dogma\.Rproj$
+^centralDogma\.Rproj$
 ^\.Rproj\.user$
-^central_dogma\.Rcheck$
-^central_dogma.*\.tar\.gz$
-^central_dogma.*\.tgz$
+^centralDogma\.Rcheck$
+^centralDogma.*\.tar\.gz$
+^centralDogma.*\.tgz$
 ^LICENSE\.md$
 ^dev\\load\.R$

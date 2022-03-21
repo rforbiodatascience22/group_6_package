@@ -2,4 +2,3 @@
 
 export(convert_dna_to_rna)
 export(create_random_dna_seq)
-export(myFunction)

@@ -3,7 +3,7 @@
 #' T's in a DNA string are substituted for U's.
 #' This means no reverse translation takes place.
 #'
-#' @param dna_str 
+#' @param dna_str A DNA sequence of abitrary length.
 #'
 #' @return A RNA string identical to \code{dna_str}, except substituted T's.
 #' @export

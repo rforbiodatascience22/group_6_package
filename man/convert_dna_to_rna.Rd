@@ -7,7 +7,7 @@
 convert_dna_to_rna(dna_str)
 }
 \arguments{
-\item{dna_str}{}
+\item{dna_str}{A DNA sequence of abitrary length.}
 }
 \value{
 A RNA string identical to \code{dna_str}, except substituted T's.

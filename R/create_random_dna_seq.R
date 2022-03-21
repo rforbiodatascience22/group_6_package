@@ -2,7 +2,8 @@
 #' 
 #' Lets the user create a string of a randomized DNA-sequence.
 #'
-#' @param seq_length 
+#' @param seq_length A positive integer indicating the 
+#' length of the desired DNA sequence.
 #'
 #' @return A random DNA sequence as string with length \code{seq_length}.
 #' @export
