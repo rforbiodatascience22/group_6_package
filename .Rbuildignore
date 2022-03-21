@@ -3,4 +3,9 @@
 ^central_dogma\.Rcheck$
 ^central_dogma.*\.tar\.gz$
 ^central_dogma.*\.tgz$
+<<<<<<< HEAD
 ^LICENSE\.md$
+=======
+^LICENSE\.md$
+^central_dogma dev\load.R
+>>>>>>> 65b8b2ab451dd2bae09edcba8ea766ffa8bd78cc
