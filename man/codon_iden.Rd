@@ -10,9 +10,9 @@ Function
 codon_iden(RNA_seq, start = 1)
 }
 \arguments{
-\item{RNA_seq}{}
+\item{RNA_seq}{RNA sequence string.}
 
-\item{start}{}
+\item{start}{First position in reading frame.}
 }
 \value{
 

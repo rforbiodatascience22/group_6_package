@@ -4,8 +4,8 @@
 #'
 #' @format Function
 #'
-#' @param RNA_seq 
-#' @param start 
+#' @param RNA_seq RNA sequence string.
+#' @param start First position in reading frame.
 #'
 #' @return
 #' @export
