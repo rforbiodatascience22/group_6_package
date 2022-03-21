@@ -2,7 +2,7 @@ Package: central_dogma
 Title: Modulate Central Dogma
 Version: 0.0.0.9000
 Authors@R:
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Esben", "Oyan", , "s194564@dtu.dk", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
     person("William", "Hagedorn-Rasmussen", , "s194545@dtu.dk", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
