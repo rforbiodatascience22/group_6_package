@@ -7,7 +7,7 @@
 #' @param RNA_seq RNA sequence string.
 #' @param start First position in reading frame.
 #'
-#' @return
+#' @return A vector with codons from \code{RNA_seq}
 #' @export
 #'
 codon_iden <- function(RNA_seq, start = 1){ 

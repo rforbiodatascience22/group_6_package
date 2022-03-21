@@ -1,0 +1,43 @@
+---
+title: "centralDogma"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{centralDogma}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(centralDogma)
+```
+
+# Brief description of the use of this package  
+The package works much like a logo-plot, but much simpler. Converts a DNA-string to an amino acid sequence, and plots their respective frequencies.  
+
+Notice that each function is demonstrated using the output from the previous function.  
+
+# Examples of each function  
+## create_random_dna_seq  
+\code{create_random_dna_seq} takes as an argument an integer, and returns a randomly generated DNA-sequence of that length:  
+```{r}
+(dna_seq <- create_random_dna_seq(15))
+```
+
+## convert_dna_to_rna  
+\code{convert_dna_to_rna} takes as an argument a DNA-sequence, and returns a RNA-sequence:  
+```{r}
+(rna_seq <- convert_dna_to_rna(dna_seq))
+```
+
+## codon_iden
+\code{codon_iden} splits the RNA-sequence into codons as below:  
+```{r}
+(codons <- codon_iden(rna_seq))
+```
