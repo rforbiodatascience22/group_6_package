@@ -15,7 +15,7 @@ codon_iden(RNA_seq, start = 1)
 \item{start}{First position in reading frame.}
 }
 \value{
-
+A vector with codons from \code{RNA_seq}
 }
 \description{
 Identifies codons from inputted RNA sequence.
