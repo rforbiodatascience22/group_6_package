@@ -1,4 +1,4 @@
 library(testthat)
-library(central_dogma)
+library(centralDogma)
 
-test_check("central_dogma")
+test_check("centralDogma")

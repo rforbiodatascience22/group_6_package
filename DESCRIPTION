@@ -12,7 +12,7 @@ Authors@R:
            comment = c(ORCID = "YOUR-ORCID-ID"))
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Emulate central dogma of biology. (DNA to RNA, RNA to protein)
+Description: Emulate central dogma of biology. (DNA to RNA, RNA to protein).
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
