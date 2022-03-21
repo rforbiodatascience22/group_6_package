@@ -25,31 +25,31 @@ Notice that each function is demonstrated using the output from the previous fun
 
 # Examples of each function  
 ## create_random_dna_seq  
-\code{create_random_dna_seq()} takes as an argument an integer, and returns a randomly generated DNA-sequence of that length:  
+`r create_random_dna_seq()` takes as an argument an integer, and returns a randomly generated DNA-sequence of that length:  
 ```{r}
 (dna_seq <- create_random_dna_seq(seq_length = 90))
 ```
 
 ## convert_dna_to_rna  
-\code{convert_dna_to_rna()} takes as an argument a DNA-sequence, and returns a RNA-sequence:  
+`r convert_dna_to_rna()` takes as an argument a DNA-sequence, and returns a RNA-sequence:  
 ```{r}
 (rna_seq <- convert_dna_to_rna(dna_str = dna_seq))
 ```
 
 ## codon_iden
-\code{codon_iden()} splits the RNA-sequence into codons as below:  
+`r codon_iden()` splits the RNA-sequence into codons as below:  
 ```{r}
 (codons <- codon_iden(RNA_seq = rna_seq, start = 1))
 ```
 
 ## translate_codon  
-\code{translate_codon()} takes codons as input in a vector, and translate into a string of amino acids:  
+`r translate_codon()` takes codons as input in a vector, and translate into a string of amino acids:  
 ```{r}
 (aa_seq <- translate_codon(codons))
 ```
 
 ## get_freq_plot  
-\code{get_freq_plot()} takes a string of amino acids, and plot their frequencies:  
+`r get_freq_plot()` takes a string of amino acids, and plot their frequencies:  
 ```{r}
 get_freq_plot(aa_seq)
 ```
@@ -57,11 +57,11 @@ get_freq_plot(aa_seq)
 # Other uses and functions  
 If the distribution of amino acids is required, this package is up for the task. It is also possible to plot the frequencies of DNA/RNA-sequences, as the plot function doesn't seach for unique patterns, but patterns based on the input. Furthermore, each function can be used on their own, on doesn't necessarily need to result in a frequency plot.  
 
-Functions for reverse transcription, or similar, could be easily implemented. These should also work in conjunction with \code{get_freq_plot()}.  
+Functions for reverse transcription, or similar, could be easily implemented. These should also work in conjunction with `r get_freq_plot()`.  
 
 # Discussion from Task 4  
 A package shouldn't contain too many dependencies, as this would result in a increase in maintenance. As other packages (dependencies) are updated, one should make sure, that this update is compatible with our package.  
 
 Further, the need for dependencies forces the user to download more packages which isn't desirable.  
 
-If many supporter functions are used, it can be troublesome to recognize each of them and their origin. Therefore, the package names should be included as \code{package::function()}.  
+If many supporter functions are used, it can be troublesome to recognize each of them and their origin. Therefore, the package names should be included as `r package::function()`.  
