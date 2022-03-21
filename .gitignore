@@ -3,9 +3,6 @@
 .Rdata
 .httr-oauth
 .DS_Store
-mypkgname.Rcheck/
-mypkgname*.tar.gz
-mypkgname*.tgz
 centralDogma.Rcheck/
 centralDogma*.tar.gz
 centralDogma*.tgz

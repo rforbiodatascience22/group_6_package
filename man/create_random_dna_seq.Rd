@@ -7,8 +7,7 @@
 create_random_dna_seq(seq_length)
 }
 \arguments{
-\item{seq_length}{A positive integer indicating the
-length of the desired DNA sequence.}
+\item{seq_length}{a positive integer indicating the length of the desired DNA sequence}
 }
 \value{
 A random DNA sequence as string with length \code{seq_length}.
