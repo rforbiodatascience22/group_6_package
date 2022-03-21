@@ -9,3 +9,6 @@ mypkgname*.tgz
 central_dogma.Rcheck/
 central_dogma*.tar.gz
 central_dogma*.tgz
+centralDogma.Rcheck/
+centralDogma*.tar.gz
+centralDogma*.tgz
