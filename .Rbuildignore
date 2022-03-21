@@ -5,3 +5,5 @@
 ^centralDogma.*\.tgz$
 ^LICENSE\.md$
 ^dev\\load\.R$
+^doc$
+^Meta$

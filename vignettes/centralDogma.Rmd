@@ -1,6 +1,6 @@
 ---
 title: "centralDogma"
-output: rmarkdown::html_vignette
+output: rmarkdown::pdf_vignette
 vignette: >
   %\VignetteIndexEntry{centralDogma}
   %\VignetteEngine{knitr::rmarkdown}
@@ -27,7 +27,7 @@ Notice that each function is demonstrated using the output from the previous fun
 ## create_random_dna_seq  
 \code{create_random_dna_seq()} takes as an argument an integer, and returns a randomly generated DNA-sequence of that length:  
 ```{r}
-(dna_seq <- create_random_dna_seq(seq_length = 15))
+(dna_seq <- create_random_dna_seq(seq_length = 90))
 ```
 
 ## convert_dna_to_rna  
@@ -49,7 +49,7 @@ Notice that each function is demonstrated using the output from the previous fun
 ```
 
 ## get_freq_plot  
-\code{get_freq_plot()} takes a string of amino acids, and plot their frequencies. Currently, it doesn't work as intended, but should be used as follows:  
+\code{get_freq_plot()} takes a string of amino acids, and plot their frequencies:  
 ```{r}
 get_freq_plot(aa_seq)
 ```
