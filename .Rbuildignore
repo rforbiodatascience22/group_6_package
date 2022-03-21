@@ -4,3 +4,4 @@
 ^central_dogma.*\.tar\.gz$
 ^central_dogma.*\.tgz$
 ^LICENSE\.md$
+^dev\\load\.R$
