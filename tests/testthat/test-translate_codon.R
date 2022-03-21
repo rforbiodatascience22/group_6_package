@@ -1,3 +1,3 @@
-test_that("has no spaces, dots or commas", {
-  expect_no_match(translate_codons(c("ACU","AGU","CUG","GUC")), "[.,\\s]+")
+test_that("has no white space, dots or commas", {
+  expect_no_match(translate_codon(c("ACU","AGU","CUG","GUC")), "[.,\\s]+")
 })
