@@ -2,4 +2,6 @@
 
 export(convert_dna_to_rna)
 export(create_random_dna_seq)
+export(get_freq_plot)
 export(translate_codon)
+importFrom(magrittr,"%>%")
