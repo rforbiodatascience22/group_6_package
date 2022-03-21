@@ -1,4 +1,4 @@
-Package: central_dogma
+Package: centralDogma
 Title: Modulate Central Dogma
 Version: 0.0.0.9000
 Authors@R:
@@ -20,3 +20,6 @@ RoxygenNote: 7.1.2
 Depends: 
     R (>= 2.10)
 LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
