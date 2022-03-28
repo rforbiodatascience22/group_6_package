@@ -10,7 +10,7 @@
 #'
 #' @importFrom magrittr %>%
 get_freq_plot <- function(aa_seq){
-  aa_seq <- stringr::str_match(aa_seq, "\\w+")
+  #aa_seq <- stringr::str_match(aa_seq, "[\\w\\_]+")
   # Generates a list of unique amino acids present in input string.
   aa_unique <- aa_seq %>%
     stringr::str_split(pattern = stringr::boundary("character"), simplify = TRUE) %>%
